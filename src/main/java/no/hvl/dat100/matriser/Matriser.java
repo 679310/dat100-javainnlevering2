@@ -4,9 +4,20 @@ public class Matriser {
 
 	// a)
 	public static void skrivUt(int[][] matrise) {
+		int[][] a = {
+				{1,2,3}, 
+				{4,5,6},
+				{7,8,9},
+		};
 		
-		// TODO
-		throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
+		for (int r = 0; r < a.length; r++) {
+			int[] rad = a[r];
+				
+			for (int p = 0; p < rad.length; p++) {
+				int mat = rad[p];
+				System.out.println(mat);
+			}
+		}
 	}
 
 	// b)
